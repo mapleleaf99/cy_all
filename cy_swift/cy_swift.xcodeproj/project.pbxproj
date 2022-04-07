@@ -19,6 +19,16 @@
 		7E32169927FD83DD004A3A79 /* cy_1.0.0.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E32169827FD83DD004A3A79 /* cy_1.0.0.json */; };
 		7E32169C27FD843A004A3A79 /* CYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32169B27FD843A004A3A79 /* CYHomeViewController.swift */; };
 		7E32169F27FD846E004A3A79 /* YLIdiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E32169E27FD846E004A3A79 /* YLIdiom.swift */; };
+		C2EF387E27FE717C00001DE3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF387A27FE717C00001DE3 /* UIViewExtension.swift */; };
+		C2EF387F27FE717C00001DE3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF387B27FE717C00001DE3 /* StringExtension.swift */; };
+		C2EF388027FE717C00001DE3 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF387C27FE717C00001DE3 /* UIImageExtension.swift */; };
+		C2EF388127FE717C00001DE3 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF387D27FE717C00001DE3 /* DateExtension.swift */; };
+		C2EF388327FE719F00001DE3 /* ToolManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF388227FE719F00001DE3 /* ToolManager.swift */; };
+		C2EF388627FE71A900001DE3 /* CodableUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF388427FE71A900001DE3 /* CodableUtil.swift */; };
+		C2EF388727FE71A900001DE3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF388527FE71A900001DE3 /* Config.swift */; };
+		C2EF388927FE729400001DE3 /* GFGCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF388827FE729400001DE3 /* GFGCD.swift */; };
+		C2EF388F27FE732E00001DE3 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF388C27FE732E00001DE3 /* GFTextField.swift */; };
+		C2EF389027FE732E00001DE3 /* GFDottedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EF388D27FE732E00001DE3 /* GFDottedLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,16 @@
 		7E32169827FD83DD004A3A79 /* cy_1.0.0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cy_1.0.0.json; sourceTree = "<group>"; };
 		7E32169B27FD843A004A3A79 /* CYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYHomeViewController.swift; sourceTree = "<group>"; };
 		7E32169E27FD846E004A3A79 /* YLIdiom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLIdiom.swift; sourceTree = "<group>"; };
+		C2EF387A27FE717C00001DE3 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C2EF387B27FE717C00001DE3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		C2EF387C27FE717C00001DE3 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		C2EF387D27FE717C00001DE3 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		C2EF388227FE719F00001DE3 /* ToolManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolManager.swift; sourceTree = "<group>"; };
+		C2EF388427FE71A900001DE3 /* CodableUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodableUtil.swift; sourceTree = "<group>"; };
+		C2EF388527FE71A900001DE3 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C2EF388827FE729400001DE3 /* GFGCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFGCD.swift; sourceTree = "<group>"; };
+		C2EF388C27FE732E00001DE3 /* GFTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
+		C2EF388D27FE732E00001DE3 /* GFDottedLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GFDottedLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +164,11 @@
 		7E32168327F8439C004A3A79 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				C2EF388827FE729400001DE3 /* GFGCD.swift */,
+				C2EF388427FE71A900001DE3 /* CodableUtil.swift */,
+				C2EF388527FE71A900001DE3 /* Config.swift */,
+				C2EF388227FE719F00001DE3 /* ToolManager.swift */,
+				C2EF388A27FE732E00001DE3 /* CustomView */,
 				7E32169327FD80E1004A3A79 /* Manager */,
 				7E32168D27FD739C004A3A79 /* extension */,
 				7E32168427F84441004A3A79 /* protocol */,
@@ -161,6 +186,7 @@
 		7E32168D27FD739C004A3A79 /* extension */ = {
 			isa = PBXGroup;
 			children = (
+				C2EF387927FE717C00001DE3 /* CustomExtension */,
 				7E32169027FD756B004A3A79 /* FileManager */,
 			);
 			path = extension;
@@ -213,6 +239,26 @@
 				7E32169E27FD846E004A3A79 /* YLIdiom.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		C2EF387927FE717C00001DE3 /* CustomExtension */ = {
+			isa = PBXGroup;
+			children = (
+				C2EF387A27FE717C00001DE3 /* UIViewExtension.swift */,
+				C2EF387B27FE717C00001DE3 /* StringExtension.swift */,
+				C2EF387C27FE717C00001DE3 /* UIImageExtension.swift */,
+				C2EF387D27FE717C00001DE3 /* DateExtension.swift */,
+			);
+			path = CustomExtension;
+			sourceTree = "<group>";
+		};
+		C2EF388A27FE732E00001DE3 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C2EF388C27FE732E00001DE3 /* GFTextField.swift */,
+				C2EF388D27FE732E00001DE3 /* GFDottedLine.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,11 +398,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2EF388927FE729400001DE3 /* GFGCD.swift in Sources */,
+				C2EF387E27FE717C00001DE3 /* UIViewExtension.swift in Sources */,
+				C2EF387F27FE717C00001DE3 /* StringExtension.swift in Sources */,
 				7E32169627FD80FA004A3A79 /* DBManager.swift in Sources */,
+				C2EF388627FE71A900001DE3 /* CodableUtil.swift in Sources */,
+				C2EF388327FE719F00001DE3 /* ToolManager.swift in Sources */,
+				C2EF389027FE732E00001DE3 /* GFDottedLine.swift in Sources */,
+				C2EF388727FE71A900001DE3 /* Config.swift in Sources */,
 				7E32169C27FD843A004A3A79 /* CYHomeViewController.swift in Sources */,
+				C2EF388127FE717C00001DE3 /* DateExtension.swift in Sources */,
 				7E32160427F83D33004A3A79 /* AppDelegate.swift in Sources */,
 				7E32169227FD75A6004A3A79 /* YLFileManagerExtension.swift in Sources */,
+				C2EF388F27FE732E00001DE3 /* GFTextField.swift in Sources */,
 				7E32169F27FD846E004A3A79 /* YLIdiom.swift in Sources */,
+				C2EF388027FE717C00001DE3 /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
